@@ -218,6 +218,7 @@ margin-top: 30px;
 .benefits-images-list {
     display: flex;
     justify-content: center;
+    padding-right: 30px;
 }
 
 .benefits-images-item {
@@ -423,14 +424,13 @@ border-radius: 4px;
     color: #AFB1B8;
 }
 
+.regular-customers-link:hover,
+.regular-customers-link:focus {
+    border: 1px solid var(--accent-color); 
+    color: var(--accent-color); 
+}
 .regular-customers-icon {
     fill: currentColor;
-}
-
-.regular-customers-item:hover,
-.regular-customers-item:focus {
-    border: 1px solid #2196F3;  
-    color:#2196F3;
 }
 
 /* -----------------------FOOTER--------------------- */

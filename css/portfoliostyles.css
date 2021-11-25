@@ -142,7 +142,10 @@ margin-right: 50px;
 .header-mail:focus {
     color: var(--accent-color);
 }
-
+.header-contacts-icon{
+margin-right:10px ;
+fill: currentColor;
+}
 .header-tel{
 font-weight: 500;
 font-size: 14px;
